@@ -13,4 +13,21 @@ public class Book {
         this.isbn=isbn;
         this.isBorrowed=isBorrowed;
     }
+
+    public String getTitle(){
+        return this.title;
+    }
+    public String getIsbn(){
+        return this.isbn;
+    }
+    public Boolean isBorrowed(){
+        return this.isBorrowed;
+    }
+    public boolean setBorrowed(boolean isBorrowed){
+        return this.isBorrowed=isBorrowed;
+    }
+    public String getAuteur(){
+        return this.author;
+    }
+
 }
